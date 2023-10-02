@@ -205,6 +205,7 @@ def plot_sentiment_distribution(sentiment_scores):
 
 # Define the Streamlit app
 st.title('YouTube Video Analyzer')
+st.set_option('deprecation.showPyplotGlobalUse', False)
 description ="""Project 2 focuses on sentiment analysis of YouTube 
 comments extracted from provided URLs. The application categorizes comments into positive, 
 negative, or neutral sentiments using natural language processing. 
