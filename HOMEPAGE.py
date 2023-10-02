@@ -14,10 +14,10 @@ st.set_page_config(
 )
 
 # Main page title
-st.title("Main Page")
+st.title("Welcome to my project")
 
 # Sidebar with a success message
-st.sidebar.success("Select an option from the sidebar")
+st.sidebar.success("Select an  project from the sidebar")
 
 # Description
 description = """
@@ -30,12 +30,16 @@ st.write(description)
 
 # Paragraph
 paragraph = """
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec erat ut leo pharetra varius.
-Duis at metus nec urna lobortis malesuada. Sed euismod lectus ut elit feugiat, nec accumsan tortor varius.
-Praesent ac ligula euismod, sollicitudin purus at, varius orci. Nam fringilla orci eget dui ultricies, 
-et bibendum turpis aliquet. Sed vel facilisis libero. Curabitur non neque in turpis vestibulum 
-euismod ut id libero. Nullam at tincidunt augue, vel venenatis sapien.
-"""
+In my projects, I've developed two applications. 
+The first project employs ImageNet EfficientNet 
+pretrained convolutional neural networks (CNNs) 
+for image classification. Leveraging EfficientNet's 
+pretraining, this system accurately categorizes images
+into various classes, enhancing automated image understanding. 
+The second project involves building a YouTube comment sentiment analyzer. 
+It extracts comments from specified URLs and performs sentiment analysis, categorizing 
+the sentiments as positive, negative, or neutral. This analysis provides valuable insights
+into audience reactions to YouTube content."""
 
 # Display the paragraph
 st.write(paragraph)
