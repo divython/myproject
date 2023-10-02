@@ -64,3 +64,4 @@ if uploaded_file is not None:
     predictions = predict(image)
     for pred in predictions:
         st.write(f"Prediction: {pred[1]} (Confidence: {pred[2]:.4f})")
+st.markdown("Made by Divyanshu Chaudhary")
