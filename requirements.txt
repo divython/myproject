@@ -14,7 +14,6 @@ torch
 layers
 torchvision
 Input 
-
 Conv2D
 Dense
 Flatten
