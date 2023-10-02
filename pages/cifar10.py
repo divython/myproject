@@ -12,6 +12,7 @@ import tensorflow as tf
 
 # Load the model
 model = tf.keras.models.load_model('mycifar10.keras')
+model.summary()
 labels = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
 
 st.title('CIFAR-10 Image Classification')
