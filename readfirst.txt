@@ -1,0 +1,5 @@
+welcome to my project ,
+you can visit this project on live on divyanshu.streamlit.app,or if you want to run locally you should follow these steps
+step1.pip install streamlit
+step2.navigate to directory where you downloaded this project...cd folder name and then cd myproject 
+step3.streamlit run HOMEPAGE.py
