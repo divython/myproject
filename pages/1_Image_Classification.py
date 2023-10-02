@@ -36,7 +36,7 @@ def predict(image):
 
 # Streamlit app
 st.title("EfficientNetB0 Image Classification")
-description="""Project 1 involves image classification using 
+description="""It involves image classification using 
 EfficientNet, a pretrained CNN model trained on ImageNet.
 The system accurately categorizes images based on this 
 vast dataset, leveraging EfficientNet's 
