@@ -240,3 +240,4 @@ if video_url:
             st.write('- ' + comment)
     else:
         st.write('Invalid YouTube video URL. Please enter a valid URL.')
+st.markdown("Made by Divyanshu Chaudhary")
