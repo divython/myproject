@@ -43,3 +43,4 @@ into audience reactions to YouTube content."""
 
 # Display the paragraph
 st.write(paragraph)
+st.markdown("Made by Divyanshu Chaudhary")
